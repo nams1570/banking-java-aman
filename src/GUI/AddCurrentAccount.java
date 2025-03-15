@@ -40,8 +40,7 @@ public class AddCurrentAccount extends JFrame {
 		
 		JLabel lblAddCurrentAccount = new JLabel("Add Current Account ");
 		lblAddCurrentAccount.setFont(new Font("Tahoma", Font.BOLD, 16));
-		lblAddCurrentAccount.setHorizontalAlignment(SwingConstants.CENTER);
-		lblAddCurrentAccount.setBounds(10, 11, 414, 34);
+		lblAddCurrentAccount.setBounds(50, 20, 414, 34);
 		contentPane.add(lblAddCurrentAccount);
 		
 		JLabel lblName = new JLabel("Name:");
